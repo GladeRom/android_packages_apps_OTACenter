@@ -13,13 +13,13 @@
  *
  *=========================================================================
  */
-package com.euphoria.center;
+package com.glade.center;
 
 import java.util.Locale;
 
-import com.euphoria.ota.EuphoriaOTA;
-import com.euphoria.ota.R;
-import com.euphoria.ota.settings.Settings;
+import com.glade.ota.GladeOTA;
+import com.glade.ota.R;
+import com.glade.ota.settings.Settings;
 
 import android.app.Activity;
 import android.app.FragmentManager;
@@ -36,14 +36,14 @@ public class OTACenter extends Activity {
         super.onCreate(savedInstanceState);
 
         getFragmentManager().beginTransaction().replace(android.R.id.content,
-                new EuphoriaOTA()).commit();
+                new GladeOTA()).commit();
         getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.euphoria_center, menu);
+        inflater.inflate(R.menu.glade_center, menu);
         return true;
     }
 
