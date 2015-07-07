@@ -71,8 +71,8 @@
     <string name="short_cut_download_gapps_summary">Download latest Gapps package</string>
 
     <!-- URL's -->
-    <string name="download_url"></string>
-    <string name="changelog_url"></string>
+    <string name="download_url">aogp-devs.com</string>
+    <string name="changelog_url">https://github.com/GladeRom/android_vendor_glade/blob/gr-3.1/CHANGELOG.mkdn</string>
     <string name="gapps_url">http://goo.gl/4gG3MH</string>
 
     <!-- Update checker -->
